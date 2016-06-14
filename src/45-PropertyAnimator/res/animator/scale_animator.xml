@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 横向拉伸，0到2 -->
+<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:propertyName="scaleX"
+    android:duration="2000"
+    android:valueFrom="0.0"
+    android:valueTo="2.0">
+    
+
+</objectAnimator>

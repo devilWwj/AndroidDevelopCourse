@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+     >
+
+    
+    <!-- android:baselineAligned：是否允许用户调整它内容的基线。
+
+	android:baselineAlignedChildIndex：当一个线性布局与另一个布局是按基线对齐的一部分，它可以指定其内容的基线对齐方式。
+
+	android:gravity：指定如何在该对象中放置此对象的内容（x/y坐标值）。
+
+	android:orientation：设置它内容的对其方向（横向/竖向）。
+
+ 	gravity 这个英文单词是重心的意思，在这里就表示停靠位置的意思。
+
+	android:layout_gravity 和 android:gravity 的区别
+
+	从名字上可以看到，android:gravity是对元素本身说的，元素本身的文本显示在什么地方靠着换个属性设置，不过不设置默认是在左侧的。
+
+	android:layout_gravity是相对与它的父元素说的，说明元素显示在父元素的什么位置。 -->
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" 
+        android:layout_weight="1"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button" 
+        android:layout_weight="1"/>
+	
+</LinearLayout>

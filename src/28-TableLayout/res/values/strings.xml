@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">28-TableLayout</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- tablelayout -->
+    <string name="name">name</string>
+    <string name="gender">gender</string>
+    <string name="age">age</string>
+    <string name="phonenum">phone_number</string>
+    <string name="gender1">male</string>
+    <string name="gender2">female</string>
+    <string name="name1">jack</string>
+    <string name="age1">25</string>
+    <string name="phonenum1">12345</string>
+    <string name="name2">lucy</string>
+    <string name="age2">24</string>
+    <string name="phonenum2">32156</string>
+
+</resources>

@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.csdn.imageview.MainActivity" >
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/course_name"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+    
+    <!-- 知识点scaleType:
+    CENTER 按图片的原来size居中显示
+    CENTER_CROP 按比例扩大图片的size居中显示，使得图片长(宽)等于或大于View的长(宽) 
+    CENTER_INSIDE  将图片的内容完整居中显示，通过按比例缩小或原来的size使得图片长/宽等于或小于View的长/宽
+    FIT_START是置于顶部，
+    FIT_CENTER居中，
+    FIT_END置于底部 
+    FIT_XY  不按比例缩放图片，目标是把图片塞满整个View。
+    FIT_CENTER 居中显示
+     -->
+     <ImageView 
+         android:id="@+id/imageview"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:src="@drawable/yellow_toy"
+         android:scaleType="fitCenter"/>
+</LinearLayout>

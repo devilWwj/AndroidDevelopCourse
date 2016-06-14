@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+    
+    <ImageView 
+        android:id="@+id/anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@anim/frame_anim"
+        />
+    
+    
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始" 
+        />
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="停止" 
+        />
+    
+    
+    <Button
+        android:id="@+id/btn_play_tween_anim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="播放补间动画" 
+        />
+    
+    <Button 
+        android:id="@+id/btn_play_property_anim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="播放属性动画" 
+        />
+    
+    
+    <ImageView 
+        
+        android:id="@+id/tween_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cat"
+        />
+    
+
+
+</LinearLayout>

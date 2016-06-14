@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 整型资源 -->
+    <integer name="max_speed">76</integer>
+    <integer name="min_speed">5</integer>
+    
+    <!-- 整形数组资源 -->
+    <integer-array name="bits">
+        <item>4</item>
+        <item>8</item>
+        <item>16</item>
+        <item>32</item>
+    </integer-array>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:src="@drawable/cat"
+    android:tileMode="repeat"
+    />
+    
+ <!-- <bitmap
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@[package:]drawable/drawable_resource" 引用的资源
+    android:antialias=["true" | "false"] 启用或禁用反锯齿
+    android:dither=["true" | "false"] 启用或禁用抖动
+    android:filter=["true" | "false"] 启用或禁用过滤
+    android:gravity=["top" | "bottom" | "left" | "right" | "center_vertical" |
+                      "fill_vertical" | "center_horizontal" | "fill_horizontal" |
+                      "center" | "fill" | "clip_vertical" | "clip_horizontal"] 对齐方式
+    android:mipMap=["true" | "false"] 启用或禁用mipmap提示
+    android:tileMode=["disabled" | "clamp" | "repeat" | "mirror"] /> 平铺模式 不可用 拉伸模式 重复模式 镜子模式-->
+	

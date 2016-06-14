@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/cat"  
+    android:insetBottom="10dp"  
+    android:insetLeft="10dp"  
+    android:insetRight="10dp"  
+    android:insetTop="10dp"
+     >
+    <!--  
+     android:insetBottom="10dp" 图像距离下边的距离  
+    android:insetLeft="10dp" 图像距离左标的距离  
+    android:insetRight="10dp" 图像距离右边的距离  
+    android:insetTop="10dp" 图像距离上边的距离  
+-->  
+
+</inset>

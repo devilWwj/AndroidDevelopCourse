@@ -1,0 +1,75 @@
+<!--
+ 顶级元素，说明采用的是表格布局 、
+	TableLayout(表格布局),顾名思义就是像表格一样布局，
+	通常情况下，TableLayout有多个TableRow组成，
+	每个TableRow就是一行，
+	定义几个TableRow就是定义几行；
+-->
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tablelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,1,2,3" 
+    >
+
+    <!--
+         android:stretchColumns="0,1,2,3"
+		该属性指定每行都由第“0、1、2、3"列占满空白空间 
+		shrinkColumns属性：以0为序，当TableRow里面的控件布满布局时，
+		指定列自动延伸以填充可用部分；当TableRow里面的控件还没有布满布局时，shrinkColumns不起作用。
+		
+		collapseColumns属性：以0行为序，隐藏指定的列
+		layout_column属性：以0行为序，设置组件显示指定列
+		layout_span属性：以第0行为序，设置组件显示占用的列数
+    -->
+
+
+    <!-- 定义一个行 -->
+
+    <TableRow>
+
+        <TextView
+            android:gravity="center"
+            android:padding="2dip"
+            android:text="@string/name" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="2dip"
+            android:text="@string/gender" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="2dip"
+            android:text="@string/age" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="2dip"
+            android:text="@string/phonenum" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:gravity="center"
+            android:padding="2dip"
+            android:text="@string/name2" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="2dip"
+            android:text="@string/gender2" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="2dip"
+            android:text="@string/age2" />
+
+        <TextView
+            android:gravity="center"
+            android:padding="2dip"
+            android:text="@string/phonenum2" />
+    </TableRow>
+
+</TableLayout>

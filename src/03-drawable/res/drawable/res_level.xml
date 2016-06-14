@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:minLevel="6" android:maxLevel="10" android:drawable="@drawable/lamp_off"/>    
+	<item android:minLevel="12" android:maxLevel="20" android:drawable="@drawable/lamp_on"/>    
+
+</level-list>

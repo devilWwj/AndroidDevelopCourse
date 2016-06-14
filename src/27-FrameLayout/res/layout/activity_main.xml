@@ -1,0 +1,33 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativelayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+     
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第一层"
+        android:textSize="40sp"
+        android:textColor="#ff00ffff"
+        android:layout_gravity="left"
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第二层"
+        android:textSize="22sp"
+        android:textColor="#ffff00ff"
+        android:layout_gravity="right"
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第三层"
+        android:textSize="30sp"
+        android:textColor="#ffff0000"
+        android:layout_gravity="center"
+        />
+    
+    
+</merge>

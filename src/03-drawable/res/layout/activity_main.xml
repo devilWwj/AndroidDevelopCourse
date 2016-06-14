@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+     >
+
+    <!-- drawable资源使用 -->
+
+         <!-- <ImageView
+        android:id="@+id/iv_cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cat" /> -->
+   
+
+    <!--
+    bitmap资源使用 
+    android:background="@drawable/res_bitmap"
+    -->
+
+
+    <!-- nine-patch资源的使用 -->
+    
+         <!-- <ImageView 
+        android:id="@+id/iv_cat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nine_patch"/> -->
+   
+
+
+    <!-- layer-list资源的使用 -->
+    
+        <!--  <ImageView 
+        android:id="@+id/iv_cat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/res_layer_list"/> -->
+   
+
+
+    <!-- state list资源的使用 -->
+    
+          <!-- <Button 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@drawable/res_state"
+         /> -->
+   
+
+
+    <!-- level list 资源的使用  transition资源的使用 -->
+    
+    <!-- <ImageView
+        android:id="@+id/imageview_lamp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/res_transition" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_LampOn"
+        android:text="开灯" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick_LampOff"
+        android:text="关灯" /> -->
+   
+
+
+    <!-- inset资源的使用 -->
+    
+            <!--  <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/res_inset"
+            />
+    -->
+
+
+    <!-- clip資源的使用 
+    设置布局的背景
+    android:background="@drawable/background"
+    android:orientation="vertical" -->
+
+    <!-- <ImageView
+        android:id="@+id/image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/res_clip" /> -->
+
+    <!-- scale资源的使用 -->
+
+
+    
+       <!--   <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/res_scale" /> -->
+   
+
+
+    <!-- shape资源使用 -->
+
+
+    
+         <TextView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/res_shape"
+        android:text="IT_xiao小巫" />
+   
+
+</LinearLayout>

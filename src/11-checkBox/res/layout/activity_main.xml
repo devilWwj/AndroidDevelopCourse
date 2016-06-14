@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="50dp"
+	    android:text="选择你喜欢的颜色"/>
+	<CheckBox 
+	    android:id="@+id/cb_color1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="50dp"
+	    android:text="红色"
+	    android:button="@drawable/check_selector"
+	    />
+	<CheckBox 
+	    android:id="@+id/cb_color2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="50dp"
+	    android:button="@drawable/check_selector"
+	    android:text="绿色"
+	    />
+	<CheckBox 
+	    android:id="@+id/cb_color3"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="50dp"
+	    android:button="@drawable/check_selector"
+	    android:text="蓝色"
+	    />
+	
+	<TextView 
+	    android:id="@+id/textView"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="50dp"
+	    />
+</LinearLayout>

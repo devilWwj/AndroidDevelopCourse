@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.csdn.service"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".BindServiceActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 配置一个Service组件 -->
+        <service android:name="com.csdn.service.MyService">
+            <intent-filter>
+                <!-- 为该Service组件intent-filter配置action -->
+                <action android:name="com.csdn.FIRST_SERVICE"/>
+            </intent-filter>
+        </service>
+        
+        
+        <service android:name="com.csdn.service.BindService">
+            <intent-filter>
+                <!-- 为该Service组件intent-filter配置action -->
+                <action android:name="com.csdn.BIND_SERVICE"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
