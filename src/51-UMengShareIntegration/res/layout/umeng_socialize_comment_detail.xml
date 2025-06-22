@@ -24,7 +24,7 @@
             android:id="@+id/umeng_socialize_map"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:apiKey="0dxzG01kdrYFCrGB42Eq2Losb6vcAOainXfDYgg"
+            android:apiKey=""
             android:clickable="true"
             android:visibility="visible" />
 
